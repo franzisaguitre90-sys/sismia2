@@ -1,5 +1,5 @@
 # sismia2 Saas
-## SMIA2 – Sistema de Monitoreo e Información Ambiental v2.0 
+## SISMIA2 – Sistema de Monitoreo e Información Ambiental v2.0 
 
 Desarrollado para la Unidades de A)Saneamiento Básico Municipales en intercomunicacion con B)Gobernacion Departamental SISMIA2 es una plataforma web que digitaliza y automatiza la gestión de trámites de **Habilitación Ambiental** bajo el marco de la **Ley 1333 de Bolivia** y las categorias que represntan gestionar. Permite hacer seguimiento completo del ciclo de vida de una Hoja de Ruta (HDR): desde que el consultor la ingresa, pasando por la revisión técnica, hasta la emisión del certificado de habilitación por secretaría.
 
