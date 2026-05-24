@@ -1,0 +1,94 @@
+/* ── SMIA2 Portal CSS ─────────────────────────────── */
+:root {
+  --green-dark: #1b5e20;
+  --green-mid: #2e7d32;
+  --blue-dark: #1a237e;
+  --amber: #f9a825;
+}
+html { scroll-behavior: smooth; }
+body { font-family: 'Segoe UI', sans-serif; }
+.py-6 { padding-top: 5rem; padding-bottom: 5rem; }
+
+/* NAVBAR */
+.nav-env { background: rgba(26,35,126,0.95); backdrop-filter: blur(10px); transition: all .3s; }
+.nav-env.scrolled { background: #1a237e !important; box-shadow: 0 4px 20px rgba(0,0,0,.3); }
+.brand-icon { width: 40px; height: 40px; background: linear-gradient(135deg,#f9a825,#ff6f00); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; }
+.brand-title { font-size: 1.4rem; font-weight: 800; color: white; line-height: 1; }
+.brand-sub { font-size: .6rem; color: rgba(255,255,255,.6); text-transform: uppercase; letter-spacing: 1px; }
+
+/* HERO */
+.hero-section { position: relative; min-height: 100vh; background: linear-gradient(135deg, #0d1b6e 0%, #1b5e20 100%); overflow: hidden; }
+.hero-overlay { position: absolute; inset: 0; background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"><circle cx="30" cy="30" r="1.5" fill="rgba(255,255,255,0.05)"/></svg>'); }
+.hero-wave { position: absolute; bottom: 0; left: 0; width: 100%; line-height: 0; }
+.hero-wave svg { height: 80px; }
+.counter-item .counter-num { font-size: 2.2rem; font-weight: 800; color: #f9a825; }
+.hero-card { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.15); border-radius: 24px; padding: 3rem 2rem; backdrop-filter: blur(12px); }
+.eco-badge { display: flex; flex-direction: column; align-items: center; gap: 4px; color: rgba(255,255,255,.8); font-size: .75rem; }
+.eco-badge i { font-size: 1.5rem; color: #69f0ae; }
+
+/* INFO CARDS */
+.info-card { background: white; border-radius: 16px; padding: 2rem; box-shadow: 0 4px 20px rgba(0,0,0,.08); height: 100%; }
+.info-icon { width: 56px; height: 56px; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 1rem; }
+.bg-primary-light { background: #e8eaf6; }
+.bg-success-light { background: #e8f5e9; }
+.service-card { background: white; border-radius: 16px; padding: 2rem; box-shadow: 0 4px 20px rgba(0,0,0,.08); height: 100%; transition: transform .3s, box-shadow .3s; }
+.service-card:hover { transform: translateY(-6px); box-shadow: 0 12px 40px rgba(0,0,0,.15); }
+.service-icon { width: 64px; height: 64px; background: linear-gradient(135deg,#1b5e20,#2e7d32); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: white; margin: 0 auto 1rem; }
+
+/* LEY 1333 */
+.bg-gradient-green { background: linear-gradient(135deg, #1b5e20 0%, #1a237e 100%); }
+.divider-green { width: 60px; height: 4px; background: #4caf50; border-radius: 2px; }
+.divider-yellow { width: 60px; height: 4px; background: #f9a825; border-radius: 2px; }
+.divider-primary { width: 60px; height: 4px; background: #3f51b5; border-radius: 2px; }
+.ley-card { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.15); border-radius: 16px; padding: 2rem; }
+.ley-item { padding: .4rem 0; font-size: .95rem; }
+.ley-stats { background: rgba(255,255,255,.1); border-radius: 16px; padding: 1.5rem; }
+.stat-item { display: flex; justify-content: space-between; align-items: center; padding: .75rem 0; border-bottom: 1px solid rgba(255,255,255,.1); }
+.stat-item:last-child { border-bottom: none; }
+.stat-num { font-size: 1.4rem; font-weight: 800; color: #f9a825; }
+.ley-pillar { background: rgba(255,255,255,.08); border-radius: 12px; padding: 1.5rem; text-align: center; }
+.ley-pillar i { font-size: 2rem; color: #69f0ae; margin-bottom: .75rem; display: block; }
+
+/* RAI PROCESS */
+.rai-category { border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,.1); border-top: 4px solid; }
+.cat-header { padding: 1.5rem; text-align: center; }
+.cat-letter { font-size: 3rem; font-weight: 900; }
+.cat-body { padding: 1.5rem; background: white; }
+.process-steps { display: flex; align-items: flex-start; justify-content: center; flex-wrap: wrap; gap: .5rem; }
+.step-item { text-align: center; flex: 1; min-width: 120px; max-width: 160px; }
+.step-icon { width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.3rem; font-weight: 800; color: white; box-shadow: 0 4px 16px rgba(0,0,0,.2); }
+.step-arrow { font-size: 1.2rem; color: #ccc; padding-top: 1rem; }
+.bg-orange { background: #f4511e; }
+
+/* AWARENESS */
+.aware-card { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.1); border-radius: 16px; padding: 2rem; text-align: center; height: 100%; transition: transform .3s; }
+.aware-card:hover { transform: translateY(-6px); background: rgba(255,255,255,.1); }
+.aware-icon { font-size: 2.5rem; color: #69f0ae; margin-bottom: 1rem; }
+.impact-card { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.1); border-radius: 16px; padding: 2rem; }
+.impact-item { padding: .5rem 0; font-size: .95rem; }
+.stat-box { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.1); border-radius: 12px; padding: 1.5rem; }
+.stat-icon { width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto .75rem; color: white; }
+.stat-num-lg { font-size: 1.8rem; font-weight: 800; color: #f9a825; }
+
+/* BADGES */
+.bg-success-soft { background: #e8f5e9; }
+.bg-primary-soft { background: #e8eaf6; }
+
+/* CONTACT */
+.contact-card { background: white; border-radius: 16px; padding: 2rem; box-shadow: 0 4px 20px rgba(0,0,0,.08); height: 100%; }
+
+/* FOOTER */
+.footer-env { background: linear-gradient(135deg,#1a237e,#1b5e20); }
+
+/* SCROLL TOP */
+#scrollTop { transition: opacity .3s; }
+
+/* ANIMATE on scroll */
+.animate-on-scroll { opacity: 0; transform: translateY(30px); transition: all .6s ease; }
+.animate-on-scroll.visible { opacity: 1; transform: translateY(0); }
+
+@media (max-width: 768px) {
+  .process-steps { flex-direction: column; align-items: center; }
+  .step-arrow { transform: rotate(90deg); }
+  .hero-section { min-height: auto; padding-top: 100px; padding-bottom: 60px; }
+}
